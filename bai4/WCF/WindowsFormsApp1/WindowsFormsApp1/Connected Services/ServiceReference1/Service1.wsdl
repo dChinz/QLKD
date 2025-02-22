@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:49358/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:49358/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:49358/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/DTO" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_Loadkh_InputMessage">
+    <wsdl:part name="parameters" element="tns:Loadkh" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Loadkh_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadkhResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insertkh_InputMessage">
+    <wsdl:part name="parameters" element="tns:Insertkh" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insertkh_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertkhResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Updatekh_InputMessage">
+    <wsdl:part name="parameters" element="tns:Updatekh" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Updatekh_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatekhResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Deletekh_InputMessage">
+    <wsdl:part name="parameters" element="tns:Deletekh" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Deletekh_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletekhResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Loadhh_InputMessage">
+    <wsdl:part name="parameters" element="tns:Loadhh" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Loadhh_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadhhResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Inserthh_InputMessage">
+    <wsdl:part name="parameters" element="tns:Inserthh" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Inserthh_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InserthhResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Updatehh_InputMessage">
+    <wsdl:part name="parameters" element="tns:Updatehh" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Updatehh_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatehhResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Deletehh_InputMessage">
+    <wsdl:part name="parameters" element="tns:Deletehh" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Deletehh_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletehhResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Loadhd_InputMessage">
+    <wsdl:part name="parameters" element="tns:Loadhd" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Loadhd_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadhdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Inserthd_InputMessage">
+    <wsdl:part name="parameters" element="tns:Inserthd" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Inserthd_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InserthdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Updatehd_InputMessage">
+    <wsdl:part name="parameters" element="tns:Updatehd" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Updatehd_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatehdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Deletehd_InputMessage">
+    <wsdl:part name="parameters" element="tns:Deletehd" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Deletehd_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletehdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSL_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSL" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSL_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSLResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSL_2_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSL_2" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSL_2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSL_2Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateSL_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSL" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateSL_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSLResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_data_InputMessage">
+    <wsdl:part name="parameters" element="tns:data" />
+  </wsdl:message>
+  <wsdl:message name="IService1_data_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dataResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="Loadkh">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Loadkh" message="tns:IService1_Loadkh_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/LoadkhResponse" message="tns:IService1_Loadkh_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Insertkh">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Insertkh" message="tns:IService1_Insertkh_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertkhResponse" message="tns:IService1_Insertkh_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Updatekh">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Updatekh" message="tns:IService1_Updatekh_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdatekhResponse" message="tns:IService1_Updatekh_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Deletekh">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Deletekh" message="tns:IService1_Deletekh_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeletekhResponse" message="tns:IService1_Deletekh_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Loadhh">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Loadhh" message="tns:IService1_Loadhh_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/LoadhhResponse" message="tns:IService1_Loadhh_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Inserthh">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Inserthh" message="tns:IService1_Inserthh_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InserthhResponse" message="tns:IService1_Inserthh_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Updatehh">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Updatehh" message="tns:IService1_Updatehh_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdatehhResponse" message="tns:IService1_Updatehh_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Deletehh">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Deletehh" message="tns:IService1_Deletehh_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeletehhResponse" message="tns:IService1_Deletehh_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Loadhd">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Loadhd" message="tns:IService1_Loadhd_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/LoadhdResponse" message="tns:IService1_Loadhd_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Inserthd">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Inserthd" message="tns:IService1_Inserthd_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InserthdResponse" message="tns:IService1_Inserthd_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Updatehd">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Updatehd" message="tns:IService1_Updatehd_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdatehdResponse" message="tns:IService1_Updatehd_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Deletehd">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Deletehd" message="tns:IService1_Deletehd_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeletehdResponse" message="tns:IService1_Deletehd_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSL">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetSL" message="tns:IService1_GetSL_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetSLResponse" message="tns:IService1_GetSL_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSL_2">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetSL_2" message="tns:IService1_GetSL_2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetSL_2Response" message="tns:IService1_GetSL_2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSL">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateSL" message="tns:IService1_UpdateSL_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateSLResponse" message="tns:IService1_UpdateSL_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="data">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/data" message="tns:IService1_data_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/dataResponse" message="tns:IService1_data_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Loadkh">
+      <soap:operation soapAction="http://tempuri.org/IService1/Loadkh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insertkh">
+      <soap:operation soapAction="http://tempuri.org/IService1/Insertkh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Updatekh">
+      <soap:operation soapAction="http://tempuri.org/IService1/Updatekh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Deletekh">
+      <soap:operation soapAction="http://tempuri.org/IService1/Deletekh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Loadhh">
+      <soap:operation soapAction="http://tempuri.org/IService1/Loadhh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Inserthh">
+      <soap:operation soapAction="http://tempuri.org/IService1/Inserthh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Updatehh">
+      <soap:operation soapAction="http://tempuri.org/IService1/Updatehh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Deletehh">
+      <soap:operation soapAction="http://tempuri.org/IService1/Deletehh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Loadhd">
+      <soap:operation soapAction="http://tempuri.org/IService1/Loadhd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Inserthd">
+      <soap:operation soapAction="http://tempuri.org/IService1/Inserthd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Updatehd">
+      <soap:operation soapAction="http://tempuri.org/IService1/Updatehd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Deletehd">
+      <soap:operation soapAction="http://tempuri.org/IService1/Deletehd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSL">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetSL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSL_2">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetSL_2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSL">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateSL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="data">
+      <soap:operation soapAction="http://tempuri.org/IService1/data" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:49358/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

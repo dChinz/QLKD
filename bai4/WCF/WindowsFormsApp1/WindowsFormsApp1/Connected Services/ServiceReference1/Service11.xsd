@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/DTO" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/DTO" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfKhachhang">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Khachhang" nillable="true" type="tns:Khachhang" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfKhachhang" nillable="true" type="tns:ArrayOfKhachhang" />
+  <xs:complexType name="Khachhang">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="makh" type="xs:int" />
+      <xs:element minOccurs="0" name="ngaysinh" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="tenkh" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Khachhang" nillable="true" type="tns:Khachhang" />
+  <xs:complexType name="ArrayOfHanghoa">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Hanghoa" nillable="true" type="tns:Hanghoa" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfHanghoa" nillable="true" type="tns:ArrayOfHanghoa" />
+  <xs:complexType name="Hanghoa">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="chungloai" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="dongia" type="xs:float" />
+      <xs:element minOccurs="0" name="mahang" type="xs:int" />
+      <xs:element minOccurs="0" name="soluong" type="xs:int" />
+      <xs:element minOccurs="0" name="tenhang" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Hanghoa" nillable="true" type="tns:Hanghoa" />
+  <xs:complexType name="ArrayOfHoadon">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Hoadon" nillable="true" type="tns:Hoadon" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfHoadon" nillable="true" type="tns:ArrayOfHoadon" />
+  <xs:complexType name="Hoadon">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="mahang" type="xs:int" />
+      <xs:element minOccurs="0" name="mahd" type="xs:int" />
+      <xs:element minOccurs="0" name="makh" type="xs:int" />
+      <xs:element minOccurs="0" name="ngaymua" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="soluong" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Hoadon" nillable="true" type="tns:Hoadon" />
+  <xs:complexType name="ArrayOfReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Report" nillable="true" type="tns:Report" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfReport" nillable="true" type="tns:ArrayOfReport" />
+  <xs:complexType name="Report">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="dongia" type="xs:double" />
+      <xs:element minOccurs="0" name="ngaymua" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="soluong" type="xs:int" />
+      <xs:element minOccurs="0" name="tenhang" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tenkh" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Report" nillable="true" type="tns:Report" />
+</xs:schema>

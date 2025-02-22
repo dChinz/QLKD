@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16967A6A-EEB5-4F29-BC4A-E4C86EDF4D8F}|WindowsFormsApp1\\GUI.csproj|D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\windowsformsapp1\\formreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16967A6A-EEB5-4F29-BC4A-E4C86EDF4D8F}|WindowsFormsApp1\\GUI.csproj|solutionrelative:windowsformsapp1\\formreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16967A6A-EEB5-4F29-BC4A-E4C86EDF4D8F}|WindowsFormsApp1\\GUI.csproj|D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\windowsformsapp1\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{16967A6A-EEB5-4F29-BC4A-E4C86EDF4D8F}|WindowsFormsApp1\\GUI.csproj|solutionrelative:windowsformsapp1\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16967A6A-EEB5-4F29-BC4A-E4C86EDF4D8F}|WindowsFormsApp1\\GUI.csproj|D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\windowsformsapp1\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{16967A6A-EEB5-4F29-BC4A-E4C86EDF4D8F}|WindowsFormsApp1\\GUI.csproj|solutionrelative:windowsformsapp1\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16967A6A-EEB5-4F29-BC4A-E4C86EDF4D8F}|WindowsFormsApp1\\GUI.csproj|D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\windowsformsapp1\\formreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16967A6A-EEB5-4F29-BC4A-E4C86EDF4D8F}|WindowsFormsApp1\\GUI.csproj|solutionrelative:windowsformsapp1\\formreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95BA658-6291-4CBF-ACE2-CE210AEAFB28}|DAL\\DAL.csproj|d:\\laptrinhservice\\mh3tvswcf\\bai4\\mh3t\\windowsformsapp1\\dal\\dal_hd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95BA658-6291-4CBF-ACE2-CE210AEAFB28}|DAL\\DAL.csproj|solutionrelative:dal\\dal_hd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D85F32A-7B62-4881-A072-8333341433E9}|DTO\\DTO.csproj|D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\dto\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D85F32A-7B62-4881-A072-8333341433E9}|DTO\\DTO.csproj|solutionrelative:dto\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FF0BE2-DFD3-4317-AFEC-57BECEAFB2F3}|BUS\\BUS.csproj|D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\bus\\bus_hd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FF0BE2-DFD3-4317-AFEC-57BECEAFB2F3}|BUS\\BUS.csproj|solutionrelative:bus\\bus_hd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95BA658-6291-4CBF-ACE2-CE210AEAFB28}|DAL\\DAL.csproj|D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\dal\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95BA658-6291-4CBF-ACE2-CE210AEAFB28}|DAL\\DAL.csproj|solutionrelative:dal\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Report1.rdlc [Design]",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\WindowsFormsApp1\\Report1.rdlc",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Report1.rdlc",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\WindowsFormsApp1\\Report1.rdlc [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\Report1.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2025-02-22T08:06:56.968Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataSet1.xsd",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\WindowsFormsApp1\\DataSet1.xsd",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\DataSet1.xsd",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\WindowsFormsApp1\\DataSet1.xsd",
+              "RelativeToolTip": "WindowsFormsApp1\\DataSet1.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-02-22T08:06:46.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormReport.cs",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\WindowsFormsApp1\\FormReport.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormReport.cs",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\WindowsFormsApp1\\FormReport.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\FormReport.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAIAwwB4AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:59:23.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormReport.cs [Design]",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\WindowsFormsApp1\\FormReport.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FormReport.cs",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\WindowsFormsApp1\\FormReport.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\FormReport.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:56:07.199Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BUS_HD.cs",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\BUS\\BUS_HD.cs",
+              "RelativeDocumentMoniker": "BUS\\BUS_HD.cs",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\BUS\\BUS_HD.cs",
+              "RelativeToolTip": "BUS\\BUS_HD.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAkwDMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:55:26.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ketnoi.cs",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\DAL\\ketnoi.cs",
+              "RelativeDocumentMoniker": "DAL\\ketnoi.cs",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\DAL\\ketnoi.cs",
+              "RelativeToolTip": "DAL\\ketnoi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAACDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:54:22.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DAL_HD.cs",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\DAL\\DAL_HD.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_HD.cs",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\DAL\\DAL_HD.cs",
+              "RelativeToolTip": "DAL\\DAL_HD.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAADgv1kAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:50:11.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Report.cs",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\DTO\\Report.cs",
+              "RelativeDocumentMoniker": "DTO\\Report.cs",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai4\\MH3T\\WindowsFormsApp1\\DTO\\Report.cs",
+              "RelativeToolTip": "DTO\\Report.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:45:33.687Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
